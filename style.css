@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: url("https://source.unsplash.com/an-aerial-view-of-a-body-of-water-surrounded-by-trees-WMRd_xKmOnI");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  text-align: center;
+}
+form {
+  width: 80%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 2rem auto;
+  padding-bottom: 2em;
+  background-color: #1b1b3290;
+  border-radius: 25px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+  padding: 0 2rem;
+}
+
+label[for="name"] {
+  padding-top: 1.5rem;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.recommed-question {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 0 2rem;
+}
+
+label[for="definitely"],
+label[for="maybe"],
+label[for="not-sure"],
+label[for="excited"],
+label[for="happy"],
+label[for="sad"] {
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+button {
+  width: 90%;
+  min-height: 2rem;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  color: #1b1b32;
+  font-weight: bold;
+  background-color: #ffffff;
+  margin: auto;
+}

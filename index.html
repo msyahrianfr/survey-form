@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form Nalaya Project</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the services
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label"
+        >Name
+        <input id="name" type="text" placeholder="Enter your name" required
+      /></label>
+      <label for="email" id="email-label"
+        >Email
+        <input type="email" placeholder="Enter your email" required id="email"
+      /></label>
+      <label for="number-label" id="age-label"
+        >Age (optional)
+        <input type="number" placeholder="Age" id="number" min="13" max="87"
+      /></label>
+      <label for="dropdown"
+        >What is your favorite feature of Nalaya Project
+        <select id="dropdown" name="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Good Photographer</option>
+          <option value="2">You get photos in that day</option>
+          <option value="3">Quality of photos</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+      <p class="recommed-question">
+        Would you recommend Nalaya Project to a friend?
+      </p>
+      <label for="definitely"
+        ><input
+          id="definitely"
+          type="radio"
+          name="recommend-type"
+          class="inline"
+          value="recommend-type"
+        />
+        Definitely</label
+      >
+      <label for="maybe"
+        ><input
+          id="maybe"
+          type="radio"
+          name="recommend-type"
+          class="inline"
+          value="recommend-type"
+        />
+        Maybe</label
+      >
+      <label for="not-sure"
+        ><input
+          id="not-sure"
+          type="radio"
+          name="recommend-type"
+          class="inline"
+          value="recommend-type"
+        />
+        Not Sure</label
+      >
+      <p class="recommed-question">What are you feeling?</p>
+      <label for="excited">
+        <input
+          id="excited"
+          type="checkbox"
+          required
+          name="excited"
+          class="inline"
+          value="feeling"
+        />
+        Excited
+      </label>
+      <label for="happy">
+        <input
+          id="happy"
+          type="checkbox"
+          required
+          name="happy"
+          class="inline"
+          value="feeling"
+        />
+        Happy
+      </label>
+      <label for="sad">
+        <input
+          id="sad"
+          type="checkbox"
+          required
+          name="sad"
+          class="inline"
+          value="feeling"
+        />
+        Sad
+      </label>
+      <label for="comment"
+        >Any Comment or Sugesstion?
+        <textarea
+          id="comment"
+          name="comment"
+          rows="10"
+          cols="30"
+          placeholder="Enter your comment here"
+        ></textarea>
+      </label>
+      <button id="submit" type="submit">submit</button>
+    </form>
+  </body>
+</html>
